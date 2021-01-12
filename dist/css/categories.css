@@ -1,0 +1,1 @@
+.categories{display:flex;flex-direction:row}.foreign,.russian{padding:10px 10px 10px 10px;border:solid green;cursor:pointer;background-color:white}.foreign:hover,.russian:hover{background-color:green}

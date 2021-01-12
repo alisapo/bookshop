@@ -1,0 +1,23 @@
+.header {
+  border: solid 2px black;
+}
+
+.header,
+.cart_and_total a {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0 3rem 0 3rem;
+}
+
+.shop,
+.cart_and_total {
+  cursor: pointer;
+  background-color: white;
+  display: grid;
+  justify-content: center;    
+}
+
+.shop:hover,
+.cart_and_total:hover {
+  background-color: orange;
+}

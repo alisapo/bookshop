@@ -1,0 +1,27 @@
+.App {
+  display: grid;
+  text-align: center;
+  margin: 5rem 2rem 5rem 2rem;
+}
+
+@media (max-width: 768px) {
+  .App {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  .App {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1201px) {
+  .App {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+
+
+
